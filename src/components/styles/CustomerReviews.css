@@ -1,0 +1,43 @@
+.customer-reviews {
+    background-color: #f9f9f9; /* Màu nền cho phần đánh giá */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng nổi */
+    margin: 30px auto; /* Khoảng cách từ trên xuống và căn giữa */
+    max-width: 800px; /* Đặt chiều rộng tối đa */
+  }
+  
+  .customer-reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các thẻ đánh giá */
+  }
+  
+  .review-card {
+    background-color: #fff; /* Nền trắng cho mỗi thẻ đánh giá */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng nổi cho thẻ đánh giá */
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between; /* Căn giữa tên và đánh giá */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .rating {
+    color: #f39c12; /* Màu cho các ngôi sao */
+  }
+  
+  .review-comment {
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và bình luận */
+    font-style: italic; /* Đặt chữ nghiêng cho bình luận */
+  }
+  

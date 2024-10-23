@@ -1,0 +1,76 @@
+.search-room {
+    background-color: #f9f9f9; /* Màu nền sáng */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto; /* Tạo khoảng cách từ trên xuống */
+    max-width: 800px; /* Đặt chiều rộng tối đa */
+  }
+  
+  .search-room h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap; /* Để các trường không bị tràn ra ngoài */
+    justify-content: space-between;
+  }
+  
+  .search-form .form-group {
+    flex: 1; /* Mỗi trường sẽ chiếm đều không gian */
+    margin-right: 15px; /* Khoảng cách giữa các trường */
+    margin-bottom: 15px; /* Thêm khoảng cách dưới mỗi trường */
+  }
+  
+  .search-form .form-group:last-child {
+    margin-right: 0; /* Không cần khoảng cách cho trường cuối cùng */
+  }
+  
+  /* Nhóm các trường ngày */
+  .date-group {
+    display: flex; /* Hiển thị các trường ngày theo hàng */
+    justify-content: space-between; /* Căn giữa các trường */
+    width: calc(100% - 15px); /* Đảm bảo nhóm chiếm toàn bộ chiều rộng */
+  }
+  
+  .search-form input,
+  .search-form select {
+    width: 100%; /* Chiều rộng 100% cho các trường nhập */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .search-form button {
+    background-color: #f39c12; /* Màu nền nút */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .search-form button:hover {
+    background-color: #e67e22; /* Màu chuyển khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .search-form .form-group {
+      flex: 1 1 100%; /* Chiếm 100% chiều rộng trên thiết bị nhỏ */
+      margin-bottom: 15px; /* Khoảng cách giữa các trường trên thiết bị di động */
+    }
+  
+    .date-group {
+      flex-direction: column; /* Chuyển sang dạng cột trên thiết bị di động */
+      gap: 15px; /* Khoảng cách giữa các trường ngày */
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.footer {
+    background-color: #282c34; /* Màu nền tối cho footer */
+    color: white; /* Màu chữ trắng */
+    padding: 40px 20px; /* Padding cho footer */
+    text-align: left; /* Căn trái cho nội dung */
+  }
+  
+  .footer-content {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần */
+    justify-content: space-between; /* Căn đều các phần */
+    flex-wrap: wrap; /* Cho phép xuống dòng nếu cần */
+  }
+  
+  .footer-section {
+    flex: 1; /* Mỗi phần chiếm 1/3 chiều rộng */
+    margin: 15px; /* Khoảng cách giữa các phần */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+  }
+  
+  .footer-section ul {
+    list-style: none; /* Bỏ dấu đầu dòng */
+    padding: 0; /* Bỏ padding */
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0; /* Khoảng cách giữa các mục */
+  }
+  
+  .footer-section ul li a {
+    color: white; /* Màu chữ cho liên kết */
+    text-decoration: none; /* Bỏ gạch chân */
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline; /* Hiệu ứng gạch chân khi hover */
+  }
+  
+  .social-links a {
+    margin-right: 15px; /* Khoảng cách giữa các liên kết mạng xã hội */
+    color: white; /* Màu chữ trắng */
+    text-decoration: none; /* Bỏ gạch chân */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Căn giữa cho dòng bản quyền */
+    margin-top: 20px; /* Khoảng cách phía trên */
+    font-size: 0.9em; /* Kích thước chữ nhỏ hơn */
+  }
+  

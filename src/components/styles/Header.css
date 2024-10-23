@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Căn giữa giữa logo, nav và auth */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px 40px; /* Padding cho header */
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền trắng trong suốt */
+    position: relative; /* Để có thể áp dụng vị trí cho các phần tử con */
+    z-index: 10; /* Đảm bảo header nằm trên banner */
+  }
+  
+  .logo h1 {
+    margin: 0; /* Bỏ khoảng cách mặc định */
+    font-size: 1.8em; /* Kích thước chữ cho logo */
+  }
+  
+  .nav ul {
+    list-style: none; /* Bỏ dấu chấm của danh sách */
+    display: flex; /* Hiển thị theo hàng */
+    gap: 20px; /* Khoảng cách giữa các liên kết */
+  }
+  
+  .nav a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #333; /* Màu chữ cho các liên kết */
+    font-weight: bold; /* Chữ đậm */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+  }
+  
+  .nav a:hover {
+    color: #f39c12; /* Màu chuyển khi hover */
+  }
+  
+  .auth {
+    display: flex; /* Hiển thị theo hàng */
+    gap: 10px; /* Khoảng cách giữa các nút đăng nhập và đăng ký */
+  }
+  
+  .auth button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f39c12; /* Màu nền nút */
+    color: white; /* Màu chữ trắng */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+  }
+  
+  .auth button:hover {
+    background-color: #e67e22; /* Màu chuyển khi hover */
+  }
+  

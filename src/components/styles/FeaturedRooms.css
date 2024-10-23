@@ -1,0 +1,64 @@
+.featured-rooms {
+    padding: 40px; /* Padding cho phần nổi bật */
+    background-color: #f9f9f9; /* Màu nền sáng cho phần này */
+    text-align: center; /* Căn giữa nội dung */
+  }
+  
+  .room-list {
+    display: flex; /* Sử dụng flexbox để hiển thị danh sách phòng */
+    justify-content: space-around; /* Căn đều các phòng */
+    flex-wrap: wrap; /* Cho phép xuống dòng nếu cần */
+  }
+  
+  .room-card {
+    background-color: white; /* Nền trắng cho từng thẻ phòng */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho thẻ */
+    margin: 15px; /* Khoảng cách giữa các thẻ */
+    overflow: hidden; /* Đảm bảo không có phần nào ra ngoài */
+    width: 300px; /* Chiều rộng của từng thẻ phòng */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+  }
+  
+  .room-card:hover {
+    transform: scale(1.05); /* Phóng to khi hover */
+  }
+  
+  .room-card img {
+    width: 100%; /* Đảm bảo hình ảnh đầy đủ chiều rộng */
+    height: 200px; /* Chiều cao cố định cho hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+  }
+  
+  .room-info {
+    padding: 15px; /* Padding cho thông tin phòng */
+  }
+  
+  .room-info h3 {
+    margin: 10px 0; /* Khoảng cách cho tiêu đề */
+  }
+  
+  .room-info p {
+    color: #555; /* Màu chữ cho mô tả */
+  }
+  
+  .price {
+    font-size: 1.5em; /* Kích thước chữ cho giá */
+    color: #e67e22; /* Màu cho giá */
+    font-weight: bold; /* Đậm chữ */
+  }
+  
+  .room-info button {
+    background-color: #f39c12; /* Màu nền nút */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .room-info button:hover {
+    background-color: #e67e22; /* Màu chuyển khi hover */
+  }
+  

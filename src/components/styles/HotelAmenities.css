@@ -1,0 +1,38 @@
+.hotel-amenities {
+    padding: 40px; /* Padding cho phần tiện ích */
+    background-color: #f9f9f9; /* Màu nền sáng cho phần này */
+    text-align: center; /* Căn giữa nội dung */
+  }
+  
+  .amenities-list {
+    display: flex; /* Sử dụng flexbox để hiển thị danh sách tiện ích */
+    justify-content: space-around; /* Căn đều các tiện ích */
+    flex-wrap: wrap; /* Cho phép xuống dòng nếu cần */
+  }
+  
+  .amenity-card {
+    background-color: white; /* Nền trắng cho từng thẻ tiện ích */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho thẻ */
+    margin: 15px; /* Khoảng cách giữa các thẻ */
+    padding: 20px; /* Padding cho các thẻ */
+    width: 200px; /* Chiều rộng của từng thẻ tiện ích */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+  }
+  
+  .amenity-card:hover {
+    transform: scale(1.05); /* Phóng to khi hover */
+  }
+  
+  .icon {
+    font-size: 3em; /* Kích thước lớn cho biểu tượng */
+  }
+  
+  .amenity-card h3 {
+    margin: 10px 0; /* Khoảng cách cho tiêu đề */
+  }
+  
+  .amenity-card p {
+    color: #555; /* Màu chữ cho mô tả */
+  }
+  

@@ -1,0 +1,36 @@
+.banner {
+    background-image: url('../assets/images/a3.jpg'); /* Đường dẫn đến hình ảnh */
+    background-size: cover; /* Đảm bảo hình ảnh phủ kín */
+    background-position: center; /* Căn giữa hình ảnh */
+    height: 400px; /* Chiều cao phần Banner */
+    display: flex; /* Sử dụng flexbox để căn giữa nội dung */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    color: white; /* Màu chữ trắng để nổi bật */
+    text-align: center;
+    padding: 20px; /* Thêm padding để tạo không gian */
+    position: relative; /* Để có thể đặt các thành phần khác lên trên */
+  }
+  
+  .banner h1 {
+    font-size: 3em; /* Kích thước chữ lớn cho tiêu đề */
+    margin: 0; /* Bỏ khoảng cách mặc định */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Hiệu ứng đổ bóng cho chữ */
+  }
+  
+  .banner button {
+    background-color: #f39c12; /* Màu nền nút */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .banner button:hover {
+    background-color: #e67e22; /* Màu chuyển khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+  }
+  
