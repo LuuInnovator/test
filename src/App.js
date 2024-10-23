@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import AboutHotel from './components/AboutHotel';
+// import AboutHotel from './components/AboutHotel';
 import SearchRoom from './components/SearchRoom';
 import FeaturedRooms from './components/FeaturedRooms';
 import CustomerReviews from './components/CustomerReviews';
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
-      <AboutHotel />
+      {/* <AboutHotel /> */}
       <SearchRoom />
       <FeaturedRooms />
       <CustomerReviews />
